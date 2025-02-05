@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sophie's Slapping Bakes</title>
+        <link href="./sophieBakes.css" rel="stylesheet">
+        <h1 class="head" id="headh1">Sophie's Slappers of Cakes</h1>
+        <p class="head" id="headp">Select the bake you're interested in.<br>All orders are customisable on the next page!</p>
+    </head>
+    <body>
+        <a><img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" class="products"></a>
+        <a><img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" class="products"></a>
+        <a><img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" class="products"></a>
+        <ol id="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#address">Address</a></li>
+            <li><a href="#stats">Stats</a></li>
+        </ol>
+        <h2 id="about">Who are even you?</h2>
+        <p>My name is Sophie and I bake <a href="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg"  target="_blank">cakes</a>. Please order a lot because I want money!</p>
+        <img src="https://chef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" alt="This image is broken, but imagine a slapping rainbow cake the likes of what you ain't never seen"/>
+        <figure>
+            <img src="https://en.m.wikipedia.org/wiki/Anger#/media/File%3AAngry-2766265_960_720.jpg"/>
+            <figcaption>One of my customers</figcaption>
+        </figure>
+        <h2 id="address">I mean, where are you, though?</h2>
+        <p>You can pick up your order from my base of operations in <strong>Steve-o</strong>!
+        <br>
+        1 Colin Road<br>
+        Stevenage<br>
+        Herts<br>
+        XX1 1XX<br><br>
+        Or you can slap your deets in here and I'll slap the cake your way when I can be arsed; IDGAF either way! :)<br>
+        </p>
+        <h2 id="stats">Stats</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Sales</th>
+                    <th scope="col">A Review</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Vegan Choco Cake</td>
+                  <td>Many</td>
+                  <td>"This cake slapped the cravings for chocolate right out of me mouth! 10/10!"</td>
+                </tr>
+                <tr>
+                    <td>Normal Choco Cake</td>
+                    <td>More than the vegan one</td>
+                    <td>"It was alright"</td>
+                </tr>
+                <tr>
+                    <td>Brownies</td>
+                    <td>None</td>
+                    <td>"choc!"</td>
+                </tr>
+            </tbody>
+        </table>
+        </body>
+        <footer>
+            <a><button id="orderButton">Order</button></a>
+        </footer>
+</html>
